@@ -2,9 +2,9 @@
 This is the code for paper #5387
 
 ## run the code
-"""
+```
 bash cut_abd_job.sh
-"""
+```
 
 ## meaning of different model
 cut_atten_coseg_sum_model.py: final method;
