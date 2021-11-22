@@ -50,9 +50,9 @@ if __name__ == '__main__':
             model.optimize_parameters()   # calculate loss functions, get gradients, update network weights
             if epoch > opt.seg_start_point:  # start training seg model after CUT gets stable
                 if opt.model == "cut_coseg" or opt.model == "cut_coseg_sum":
-                    model.loss_names = ['G_GAN', 'D_real', 'D_fake', 'G', 'NCE', 'fake_S', 'real_S', 'D_S', 'GCN']
+                    model.loss_names = ['G_GAN', 'D_real', 'D_fake', 'G', 'PCL', 'fake_S', 'real_S', 'D_S', 'GCL']
                 else:
-                    model.loss_names = ['G_GAN', 'D_real', 'D_fake', 'G', 'NCE', 'fake_S', 'real_S', 'D_S']
+                    model.loss_names = ['G_GAN', 'D_real', 'D_fake', 'G', 'PCL', 'fake_S', 'real_S', 'D_S']
                 model.optimize_seg_parameters()  # calculate loss functions related to seg model, update relevant weights
             if len(opt.gpu_ids) > 0:
                 torch.cuda.synchronize()
