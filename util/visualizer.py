@@ -78,8 +78,8 @@ class Visualizer():
             else:
                 self.vis = visdom.Visdom(port=2004,
                                          base_url=os.environ['tensorboard_base_url'] + '/visdom')
-            if not self.vis.check_connection():
-                self.create_visdom_connections()
+            # if not self.vis.check_connection():
+            #    self.create_visdom_connections()
 
         current_time = datetime.now().strftime("%Y%m%d-%H%M%S")
         opt.name = opt.name + "_" + current_time

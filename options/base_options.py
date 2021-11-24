@@ -3,7 +3,7 @@ import os
 from util import util
 import torch
 import models
-import data
+
 
 
 class BaseOptions():
@@ -58,7 +58,6 @@ class BaseOptions():
         parser.add_argument('--no_antialias', action='store_true', help='if specified, use stride=2 convs instead of antialiased-downsampling (sad)')
         parser.add_argument('--no_antialias_up', action='store_true', help='if specified, use [upconv(learned filter)] instead of [upconv(hard-coded [1,3,3,1] filter), conv]')
         # dataset parameters
-        parser.add_argument('--dataset_mode', type=str, default='unaligned', help='chooses how datasets are loaded. [unaligned | aligned | single | colorization]')
         parser.add_argument('--direction', type=str, default='AtoB', help='AtoB or BtoA')
         parser.add_argument('--serial_batches', action='store_true', help='if true, takes images in order to make batches, otherwise takes them randomly')
         parser.add_argument('--num_threads', default=4, type=int, help='# threads for loading data')
@@ -108,11 +107,6 @@ class BaseOptions():
             opt, _ = parser.parse_known_args()  # parse again with new defaults
         else:
             opt, _ = parser.parse_known_args(self.cmd_line)  # parse again with new defaults
-
-        # modify dataset-related parser options
-        dataset_name = opt.dataset_mode
-        dataset_option_setter = data.get_option_setter(dataset_name)
-        parser = dataset_option_setter(parser, self.isTrain)
 
         # save and return the parser
         self.parser = parser

@@ -2,43 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f4e46c35-2da5-4c89-a731-1df19664c59f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/CISFA.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CISFA.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CUTBaseExperiment.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/CUTExperiment.py" beforeDir="false" afterPath="$PROJECT_DIR$/CUTExperiment.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SupCUTExperiment.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/cut_abd_job.sh" beforeDir="false" afterPath="$PROJECT_DIR$/cut_abd_job.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_base_job.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_job.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cut_test_job.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/base_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/image_folder.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/single_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/singleimage_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/template_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/unaligned_dataset.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/__init__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/__main__.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/grumpifycat_launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/placeholder_launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/pretrained_launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/singleimage_launcher.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/experiments/tmux_launcher.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/detect_cat_face.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/download_cut_dataset.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/download_pix2pix_dataset.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/datasets/prepare_cityscapes_dataset.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_coseg_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/cut_coseg_sequential_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_coseg_sum_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/models/cut_coseg_sum_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_mix_coseg_sum_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_seg_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_shape_coseg_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_sup_coseg_sum_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_sup_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/models/cut_sup_seg_model.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/run_cut.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/options/base_options.py" beforeDir="false" afterPath="$PROJECT_DIR$/options/base_options.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/util/visualizer.py" beforeDir="false" afterPath="$PROJECT_DIR$/util/visualizer.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../run_cut.sh" beforeDir="false" afterPath="$PROJECT_DIR$/../run_cut.sh" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -49,12 +23,12 @@
   <component name="FileEditorManager">
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
-        <leaf>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/CUTExperiment.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="261">
-                  <caret line="50" column="93" lean-forward="true" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+                <state relative-caret-position="750">
+                  <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
                   <folding>
                     <element signature="e#0#11#0" expanded="true" />
                   </folding>
@@ -63,22 +37,62 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py">
+            <entry file="file://$PROJECT_DIR$/models/base_model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4680">
-                  <caret line="312" column="19" lean-forward="true" selection-start-line="303" selection-start-column="4" selection-end-line="312" selection-end-column="19" />
+                <state>
                   <folding>
-                    <element signature="e#0#18#0" expanded="true" />
+                    <element signature="e#0#9#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/datasets/two_dim_multi_stream/__init__.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state>
+                  <folding>
+                    <element signature="e#0#13#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/cut_abd_job.sh">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="405">
+                  <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/loss_functions/dice_loss.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1260">
+                  <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/options/base_options.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="695">
+                  <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+                  <folding>
+                    <element signature="e#0#15#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/cut_abd_job.sh">
+            <entry file="file://$PROJECT_DIR$/requirements.txt">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="11" selection-start-column="11" selection-end-column="11" />
+                <state relative-caret-position="60">
+                  <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
                 </state>
               </provider>
             </entry>
@@ -86,11 +100,11 @@
         </leaf>
       </split-first>
       <split-second>
-        <leaf>
-          <file pinned="false" current-in-tab="false">
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/models/cut_coseg_sum_model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="526">
+                <state relative-caret-position="4755">
                   <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -99,22 +113,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-                <state split_layout="SPLIT">
-                  <first_editor relative-caret-position="15">
-                    <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
-                  </first_editor>
-                  <second_editor />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/models/cut_coseg_sequential_model.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1277">
+                <state relative-caret-position="4425">
                   <caret line="295" column="71" selection-start-line="295" selection-start-column="68" selection-end-line="295" selection-end-column="71" />
                   <folding>
                     <element signature="e#0#18#0" expanded="true" />
@@ -132,6 +134,7 @@
       <find>NCE</find>
       <find>nce</find>
       <find>gcn</find>
+      <find>self.vis.check_connection()</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -141,18 +144,21 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/CUTExperiment.py" />
-        <option value="$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py" />
         <option value="$PROJECT_DIR$/models/cut_coseg_sequential_model.py" />
         <option value="$PROJECT_DIR$/models/cut_coseg_sum_model.py" />
-        <option value="$PROJECT_DIR$/cut_abd_job.sh" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/options/base_options.py" />
+        <option value="$PROJECT_DIR$/util/visualizer.py" />
+        <option value="$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py" />
+        <option value="$PROJECT_DIR$/loss_functions/dice_loss.py" />
+        <option value="$PROJECT_DIR$/cut_abd_job.sh" />
+        <option value="$PROJECT_DIR$/requirements.txt" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="x" value="-1920" />
-    <option name="y" value="-68" />
-    <option name="width" value="1920" />
+    <option name="width" value="954" />
     <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -171,7 +177,7 @@
             <path>
               <item name="CISFA" type="b2602c69:ProjectViewProjectNode" />
               <item name="CISFA" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="loss_functions" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -209,26 +215,21 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1637609248791</updated>
-      <workItem from="1637609250340" duration="4089000" />
+      <workItem from="1637609250340" duration="4788000" />
+      <workItem from="1637773931065" duration="6486000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4089000" />
+    <option name="totallyTimeSpent" value="11274000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-1920" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1920" y="0" width="1920" height="1080" extended-state="6" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973376" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14376996" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Python Console" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32871288" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32970297" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32970297" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -236,109 +237,38 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29009902" />
+      <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/data/base_dataset.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/image_folder.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/unaligned_dataset.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/data/base_dataset.py" />
+    <entry file="file://$PROJECT_DIR$/data/image_folder.py" />
+    <entry file="file://$PROJECT_DIR$/data/unaligned_dataset.py" />
     <entry file="file://$PROJECT_DIR$/eval_job.sh">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/CUTBaseExperiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-381">
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cut_job.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/CUTExperiment.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="50" column="93" lean-forward="true" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/CUTBaseExperiment.py" />
+    <entry file="file://$PROJECT_DIR$/cut_job.sh" />
+    <entry file="file://$PROJECT_DIR$/test.py" />
+    <entry file="file://$PROJECT_DIR$/cut_base_job.sh" />
+    <entry file="file://$PROJECT_DIR$/cut_test_job.sh" />
     <entry file="file://$PROJECT_DIR$/models/cut_coseg_sequential_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1277">
+        <state relative-caret-position="4425">
           <caret line="295" column="71" selection-start-line="295" selection-start-column="68" selection-end-line="295" selection-end-column="71" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="e#0#9#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cut_base_job.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cut_test_job.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-50" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4680">
-          <caret line="312" column="19" lean-forward="true" selection-start-line="303" selection-start-column="4" selection-end-line="312" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/cut_abd_job.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/models/cut_coseg_sum_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="526">
-          <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
           </folding>
@@ -348,10 +278,122 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="15">
-            <caret line="1" column="28" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+          <first_editor relative-caret-position="150">
+            <caret line="10" selection-start-line="10" selection-end-line="10" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/download_cut_dataset.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/bibtex/cityscapes.tex">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options/train_options.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/util/visualizer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/two_dim_multi_stream/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/two_dim_multi_stream/data_augmentation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-181" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/cut_coseg_sum_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4755">
+          <caret line="317" column="19" selection-start-line="317" selection-start-column="19" selection-end-line="317" selection-end-column="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cut_abd_job.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/loss_functions/dice_loss.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1260">
+          <caret line="86" column="52" selection-start-line="86" selection-start-column="52" selection-end-line="86" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datasets/two_dim_multi_stream/NumpyXYDataLoader.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/cut_atten_coseg_sum_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3510">
+          <caret line="234" column="50" selection-start-line="234" selection-start-column="50" selection-end-line="234" selection-end-column="50" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CUTExperiment.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="50" column="93" selection-start-line="50" selection-start-column="93" selection-end-line="50" selection-end-column="93" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/models/base_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/options/base_options.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="695">
+          <caret line="60" column="8" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
         </state>
       </provider>
     </entry>

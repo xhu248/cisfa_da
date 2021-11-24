@@ -29,12 +29,12 @@ class CUTAttenCosegSumModel(BaseModel):
         parser.add_argument('--lambda_GCL', type=float, default=1.0, help='weight for GCL loss: GCL(SegEnc(X), X)')
         parser.add_argument('--pcl_idt', type=util.str2bool, nargs='?', const=True, default=False, help='use PCL loss for identity mapping: PCL(G(Y), Y))')
         parser.add_argument('--pcl_layers', type=str, default='0,4,8,12,16', help='compute PCL loss on which layers')
-        parser.add_argument('--pcl_includes_all_negatives_from_minibatch',
+        parser.add_argument('--nce_includes_all_negatives_from_minibatch',
                             type=util.str2bool, nargs='?', const=True, default=False,
                             help='(used for single image translation) If True, include the negatives from the other samples of the minibatch when computing the contrastive loss. Please see models/patchnce.py for more details.')
         parser.add_argument('--netF', type=str, default='label_sample', choices=['sample', 'reshape', 'mlp_sample'], help='how to downsample the feature map')
         parser.add_argument('--netF_nc', type=int, default=256)
-        parser.add_argument('--pcl_T', type=float, default=0.07, help='temperature for PCL loss')
+        parser.add_argument('--nce_T', type=float, default=0.07, help='temperature for PCL loss')
         parser.add_argument('--num_patches', type=int, default=256, help='number of patches per layer')
         parser.add_argument('--flip_equivariance',
                             type=util.str2bool, nargs='?', const=True, default=False,

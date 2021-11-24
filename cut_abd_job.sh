@@ -8,9 +8,9 @@ batch_size=4
 netG=smallstylegan2
 model=cut_atten_coseg_sum
 exp=${model}_${dataset}
-l_nce=1
-l_gcn=1
-l_gan=5
+l_pcl=1
+l_gcl=1
+l_gan=1
 
 export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/data/software/anaconda3/lib/
 echo "start running job"
@@ -19,9 +19,9 @@ python CUTExperiment.py --model ${model} --batch_size ${batch_size} --n_epochs 2
 --n_epochs_decay 0 \
 --fold ${fold} \
 --num_classes ${num_classes} \
---nce_idt False \
---lambda_NCE ${l_nce} \
---src_dir ../data/abdominal_data/multi_atlas  --src_data_dir ../data/abdominal_data/multi_atlas/cropped \
---target_dir ../data/abdominal_data/chaos --target_data_dir ../data/abdominal_data/chaos/cropped \
---name ${exp}_f${fold}_b${batch_size} \
-> output_log/${exp}_f${fold}_b${batch_size}
+--pcl_idt False \
+--lambda_PCL ${l_pcl} \
+--src_dir ${where_you_store_the_source_data}  --src_data_dir ${the_direct_you_store_the_processed_source_data} \
+--target_dir ${where_you_store_the_target_data} --target_data_dir ${where_you_store_the_processed_target_data} \
+--name ${exp}_f${fold}_b${batch_size}
+# > output_log/${exp}_f${fold}_b${batch_size}

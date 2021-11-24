@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="crc01">
+    <serverData>
+      <paths name="crc01">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/afs/crc.nd.edu/user/x/xhu7/Private/research_project/2021/domain_adapt_seg/CUT/CISFA" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
