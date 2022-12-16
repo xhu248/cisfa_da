@@ -25,3 +25,6 @@ python CUTExperiment.py --model ${model} --batch_size ${batch_size} --n_epochs 2
 --target_dir ${where_you_store_the_target_data} --target_data_dir ${where_you_store_the_processed_target_data} \
 --name ${exp}_f${fold}_b${batch_size}
 # > output_log/${exp}_f${fold}_b${batch_size}
+
+# eval.sh give examples of src_dir and src_data_dir, we set the two parameters because there might be different
+# preprocessing settings, and we store them in different folders under src_dir

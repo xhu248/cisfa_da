@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SshConfigs">
+    <configs>
+      <sshConfig authType="PASSWORD" connectionConfig="{&quot;serverAliveInterval&quot;:300}" host="crcfe01.crc.nd.edu" id="681153e3-1cd7-47c4-8cf2-b0f4faba3538" port="22" customName="crc01" nameFormat="CUSTOM" username="xhu7" useOpenSSHConfig="true">
+        <option name="customName" value="crc01" />
+      </sshConfig>
+    </configs>
+  </component>
+</project>

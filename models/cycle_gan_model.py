@@ -101,6 +101,9 @@ class CycleGANModel(BaseModel):
             self.optimizers.append(self.optimizer_G)
             self.optimizers.append(self.optimizer_D)
 
+        self.count_all_param()
+        exit()
+
     def set_input(self, input):
         """Unpack input data from the dataloader and perform necessary pre-processing steps.
 
@@ -220,3 +223,14 @@ class CycleGANModel(BaseModel):
         self.backward_D_A()      # calculate gradients for D_A
         self.backward_D_B()      # calculate graidents for D_B
         self.optimizer_D.step()  # update D_A and D_B's weights
+
+    def count_all_param(self):
+        total = 0
+        total += self.__count_param(self.netG_A)
+        total += self.__count_param(self.netG_B)
+        total += self.__count_param(self.netD_A)
+        total += self.__count_param(self.netD_B)
+        print("total number of parameters:", total)
+
+    def __count_param(self, model):
+        return sum(p.numel() for p in model.parameters() if p.requires_grad)
